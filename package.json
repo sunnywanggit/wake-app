@@ -1,0 +1,30 @@
+{
+  "name": "wake-app",
+  "version": "2.2.6",
+  "description": "唤醒app工具",
+  "main": "lib/wake-app.umd.min.js",
+  "private": false,
+  "types": "./index.d.ts",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lib": "vue-cli-service build --target lib --name wake-app --dest lib src/main.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@bb/browser-detect": "^1.1.3",
+    "crypto-js": "^4.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.47",
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.3.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
